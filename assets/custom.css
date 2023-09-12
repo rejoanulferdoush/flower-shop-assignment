@@ -1,3 +1,52 @@
 *{
     font-family: 'Lato', sans-serif;
+    margin: 0px;
 }
+/* nav styles */
+.nav-container{
+    padding: 30px;
+    background-color: rgba(255, 212, 221, 0.238);
+}
+.nav-img{
+    text-align: center;
+}
+.nav-img img{
+    height: 150px;
+    width: 150px;
+}
+.nav-menu{
+    margin-top: 30px;
+}
+.nav-menu ul{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+.nav-menu li{
+    list-style: none;
+    margin-left: 30px;
+}
+.nav-menu a{
+    font-weight: 400;
+    color: #272727;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+.nav-menu a:hover{
+    color: #ffffffff;
+    background-color: #E55473;
+    padding: 20px 30px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.shopping{
+    font-size: 30px;
+    color: #272727;
+    padding: 0px 30px;
+    margin: -8px;
+}
+.shopping:hover{
+    color: #E55473;
+    transition: 0.3s;
+}
+

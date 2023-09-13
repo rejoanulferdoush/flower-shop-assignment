@@ -3,7 +3,7 @@
     margin: 0px;
 }
 main{
-    padding: 0px 200px 0px 200px;
+    /* padding: 0px 200px 0px 200px; */
 }
 /* common component */
 .mt{
@@ -95,6 +95,9 @@ main{
     line-height: 30px;
 }
 /* featured flower styles */
+.featured-section{
+    padding: 0px 200px 0px 200px;
+}
 .featured-header{
     text-align: center;
 }
@@ -117,6 +120,9 @@ main{
     gap: 30px;
     justify-content: space-around;
 }
+.flower-cards a{
+    text-decoration: none;
+}
 .flower-cards img{
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
@@ -132,6 +138,9 @@ main{
     font-weight: 700;
 }
 /* support styles */
+.support-section{
+    padding: 0px 200px 0px 200px;
+}
 .support-container{
     padding: 80px 80px;
     display: flex;
@@ -153,4 +162,34 @@ main{
     text-align: center;
     font-size: 20px;
     font-weight: 600;
+}
+/* call to action section */
+.action-container{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    background-color: rgba(229, 84, 115, 0.05);
+    padding: 100px 200px 0px 200px;
+}
+.action-left{
+    text-align: center;
+    margin-top: 150px;
+}
+.action-tittle{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.action-desc{
+    margin-bottom: 24px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.action-right img{
+    width: 318px;
+    height: 420px;
 }

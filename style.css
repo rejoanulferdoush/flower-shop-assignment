@@ -7,12 +7,34 @@
   font-family: poppins;
   scroll-behavior: smooth;
 }
+main section {
+  margin-top: 6rem;
+  padding: 0 240px 0 240px;
+}
+.center {
+  text-align: center;
+}
 /* common styles */
-.mt__one{
-    margin-top: 1.5rem;
+.mt__one {
+  margin-top: 1.5rem;
+}
+.mt__two {
+  margin-top: 50px;
+}
+.mt__bottom {
+  margin-bottom: 50px;
 }
 .span__color--text {
   color: rgb(229, 84, 115);
+}
+.color__primary {
+  background: rgba(167, 33, 98, 0.15);
+}
+.color__secondary {
+  background: rgba(5, 151, 160, 0.15);
+}
+.color__tertiary {
+  background: rgba(71, 125, 17, 0.15);
 }
 .head__tittle {
   color: rgb(39, 39, 39);
@@ -26,7 +48,7 @@
 }
 .section__inner__tittle--one {
   color: rgb(39, 39, 39);
-  font-size: 2.2rem;
+  font-size: 1.4rem;
   font-weight: 700;
 }
 .section__inner__tittle--two {
@@ -35,7 +57,7 @@
   font-weight: 600;
 }
 .p__text {
-  color: rgba(224, 224, 224, 0.6);
+  color: rgba(39, 39, 39, 0.6);
   font-size: 1.2rem;
   font-weight: 300;
 }
@@ -60,24 +82,45 @@
 }
 
 /* header/banner styles */
-.head__container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-    padding: 50px 140px;
-    background: rgba(229, 84, 115, 0.1);
-    position: absolute;
+.head__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 50px 140px;
+  background: rgba(229, 84, 115, 0.1);
 }
-.head__image > img{
-    width: 100%;
-    top: 3.5rem;
-    background-repeat: no-repeat;
-    position: relative;
+.head__image > img {
+  width: 100%;
+  top: 3.5rem;
+  background-repeat: no-repeat;
+  position: relative;
 }
-.head__content{
+.head__content {
   max-width: 50%;
 }
-.head__image{
+.head__image {
   max-width: 50%;
+}
+/* featured sections style */
+.featured__card--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.card__featured__image--1,
+.card__featured__image--2,
+.card__featured__image--3 {
+  padding: 110px 70px 0px 70px;
+  border-radius: 300px 300px 0px 0px;
+}
+.card__featured__image--1 img,
+.card__featured__image--2 img,
+.card__featured__image--3 img{
+  top: 5px;
+  position: relative;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  height: 428px;
 }

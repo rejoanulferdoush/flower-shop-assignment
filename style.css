@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+  scroll-behavior: smooth;
+}
+/* common styles */
+.mt__one{
+    margin-top: 1.5rem;
+}
+.span__color--text {
+  color: rgb(229, 84, 115);
+}
+.head__tittle {
+  color: rgb(39, 39, 39);
+  font-size: 5rem;
+  font-weight: 800;
+}
+.section__tittle {
+  color: rgb(39, 39, 39);
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.section__inner__tittle--one {
+  color: rgb(39, 39, 39);
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.section__inner__tittle--two {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+.p__text {
+  color: rgba(224, 224, 224, 0.6);
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.foot__head--tittle {
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.btn__primary {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 8px;
+  background: rgb(229, 84, 115);
+  border: none;
+  padding: 20px 43px 20px 43px;
+  cursor: pointer;
+}
+.btn__primary:hover {
+  background: rgb(217, 73, 104);
+  transition: 0.5s ease;
+}
+
+/* header/banner styles */
+.head__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 50px 140px;
+    background: rgba(229, 84, 115, 0.1);
+    position: absolute;
+}
+.head__image > img{
+    width: 100%;
+    top: 3.5rem;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.head__content{
+  max-width: 50%;
+}
+.head__image{
+  max-width: 50%;
+}

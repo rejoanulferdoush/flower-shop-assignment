@@ -53,7 +53,7 @@ main section {
 }
 .section__inner__tittle--two {
   color: rgba(39, 39, 39, 0.8);
-  font-size: 2.2rem;
+  font-size: 1.4rem;
   font-weight: 600;
 }
 .p__text {
@@ -117,10 +117,19 @@ main section {
 }
 .card__featured__image--1 img,
 .card__featured__image--2 img,
-.card__featured__image--3 img{
+.card__featured__image--3 img {
   top: 5px;
   position: relative;
   max-width: 100%;
   background-repeat: no-repeat;
   height: 428px;
+}
+/* what you will get styles */
+.services__card--container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 86px;
 }

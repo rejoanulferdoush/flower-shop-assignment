@@ -138,3 +138,24 @@
     margin-bottom: 30px;
   }
 }
+/* hot deal media */
+@media screen and (max-width: 576px) {
+  .hot__deal__content--container{
+    flex-direction: column-reverse;
+  }
+  .hot__deal--left{
+  max-width: 100%;
+  margin-top: 30px;
+  text-align: center;
+}
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .hot__deal__content--container{
+    flex-direction: column-reverse;
+  }
+  .hot__deal--left{
+  max-width: 100%;
+  margin-top: 30px;
+  text-align: center;
+}
+}

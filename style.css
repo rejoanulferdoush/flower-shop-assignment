@@ -24,6 +24,9 @@ main section {
 .mt__bottom {
   margin-bottom: 50px;
 }
+.white__text {
+  color: #ffff;
+}
 .span__color--text {
   color: rgb(229, 84, 115);
 }
@@ -57,7 +60,7 @@ main section {
   font-weight: 600;
 }
 .p__text {
-  color: rgba(39, 39, 39, 0.6);
+  color: rgba(131, 131, 131, 0.6);
   font-size: 1.2rem;
   font-weight: 300;
 }
@@ -188,4 +191,14 @@ main section {
   border: none;
   outline: none;
   width: 700px;
+}
+/* footer styles */
+.foot__content--container {
+  background: rgb(17, 16, 16);
+  padding: 120px 400px;
+}
+.copyright__text {
+  color: rgba(99, 99, 99, 0.4);
+  font-size: 16px;
+  font-weight: 400;
 }

@@ -166,7 +166,7 @@
     grid-gap: 20px;
     padding: 0 10px 0 10px;
   }
-  .feeds__gallery img{
+  .feeds__gallery img {
     height: auto;
   }
 }
@@ -176,7 +176,7 @@
     grid-gap: 20px;
     padding: 0 10px 0 10px;
   }
-  .feeds__gallery img{
+  .feeds__gallery img {
     height: auto;
   }
 }
@@ -187,7 +187,41 @@
     grid-gap: 20px;
     padding: 0 10px 0 10px;
   }
-  .feeds__gallery img{
+  .feeds__gallery img {
     height: 400px;
+  }
+}
+/* hot deals styles */
+@media screen and (max-width: 576px) {
+  .deals__content--container {
+    padding: 50px 20px 50px 20px;
+  }
+  .deals__input__and--buttons {
+    flex-direction: column;
+  }
+  .deals__input__and--buttons input[type="text"] {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .deals__content--container {
+    padding: 50px 20px 50px 20px;
+  }
+  .deals__input__and--buttons {
+    flex-direction: column;
+  }
+  .deals__input__and--buttons input[type="text"] {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .deals__content--container {
+    padding: 50px 20px 50px 20px;
+  }
+  .deals__input__and--buttons {
+    flex-direction: column;
+  }
+  .deals__input__and--buttons input[type="text"] {
+    width: 100%;
   }
 }
